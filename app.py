@@ -26,7 +26,7 @@ def check_dup():
     else:
         return jsonify({'exists':"이미 존재하는 아이디 입니다."})
 
-
+##1
 
 # POST
 @app.route('/signup', methods=['POST'])
